@@ -407,10 +407,10 @@ input.dnl-ui-form-validate-error, textarea.dnl-ui-form-validate-error { border:1
 
 
 
-#quick-search { background-color:#FFF; height:100%; width:100%; margin:0px; }
+#quick-search { background-color:#FFF; margin:0px; }
 #quick-search h1 { display:inline-block; line-height:50px; }
 #quick-search ul, #quick-search ul > li { margin:0px; padding:0px; list-style:none;  }
-#quick-search > div:first-child { position:relative; height:50px; margin:0px 10px 0px 10px; }
+#quick-search > div:first-child { position:relative; margin:0px 10px 0px 10px; }
 #quick-search > div:first-child > span { position:absolute; bottom:0px; right:0px; width:194px; }
 #quick-search > ul { display:inline-block; width:194px; margin:0px 10px 0px 10px; }
 #quick-search > ul.requires-login > li { background-color:#7d90b9; }

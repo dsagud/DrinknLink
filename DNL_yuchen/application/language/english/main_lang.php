@@ -128,3 +128,10 @@ $lang['main_BEERS_ON_DRAFT'] = "Beers on draft: ";
 $lang['main_FIRST_EVENT_TONIGHT'] = "First event tonight: ";
 $lang['main_FIRST_PROMO_TONIGHT'] = "First promo tonight: ";
 $lang['main_VISIT_BAR_PAGE'] = "VISIT BAR PAGE";
+
+$lang['bigNav_BAR_INFO'] = "BAR INFO";
+$lang['bigNav_EVENTS_AND_PROMOTIONS'] = "EVENTS & PROMOTIONS";
+$lang['bigNav_SOCIAL_MEDIA'] = "SOCIAL MEDIA";
+$lang['bigNav_RESERVE_OR_BOOK'] = "RESERVE OR BOOK";
+$lang['bar_FRIENDS_HERE_NOW'] = "Friends who are here now";
+
