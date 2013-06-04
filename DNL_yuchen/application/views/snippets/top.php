@@ -6,12 +6,16 @@
         <base href="<?php echo base_url() ?>"/>
         <title><?php // echo $this->title;         ?></title>
 
+        
+        <!-- CSS --> 
         <link href="common/css/style.css" rel="stylesheet" />
         <link href="common/css/sagud.css" rel="stylesheet" />
         <link href="common/css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" /> 
         <link href="common/css/bootstrap.min.css" rel="stylesheet" type="text/css" /> 
         <link href="common/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
 
+        
+        <!-- JS -->
         <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
         <script type="text/javascript" src="common/js/jquery.mCustomScrollbar.concat.min.js"></script>
         <script type="text/javascript" src="common/js/bootstrap.min.js"></script>
@@ -19,6 +23,7 @@
         <script type="text/javascript" src="common/js/googleMaps.js"></script> 
         <script type="text/javascript" src="common/js/jquery.quick.pagination.min.js"></script>
 
+        <!-- my jQuery -->
         <script type="text/javascript" src="common/js/jquery.mCustomScrollbar.js"></script>
 
         <!--[if lt IE 9]>

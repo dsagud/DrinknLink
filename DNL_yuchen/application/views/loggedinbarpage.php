@@ -68,8 +68,52 @@
                                 <!-- EVENTS & PROMOTIONS -->
                                 <h1><?php echo $this->lang->line('main_EVENTS_AND_PROMOTIONS'); ?></h1>
 
+                                <div id="calendarFilterBox"></div>
+                                
+                                <!-- Event 1 -->
+                                <hr style="background:#b3b3b3; border:0; height:1px" />
+                                <p class="barEventDate"><?php echo $this->lang->line('bar_JANUARY'); ?>&nbsp 1</p>
+                                <p class="barEventTitle">HAPPY 2013 - NEW YEAR PARTY!</p>
+                                <img class="barEventImg" width="105" height="105" src="http://smashmaterials.com/wp-content/uploads/2012/12/2013-New-Year.jpg" alt="" />
+                                <p class="barEventText">Have you ever copied some text from a web page or 
+                                    a document and then wanted to paste it as simple text into another 
+                                    application without getting all the formatting from the original 
+                                    source? PureText makes this simple by adding a new Windows hot-key 
+                                    (default is WINDOWS+V) that allows you to paste text to any 
+                                    application without formatting.
+                                </p>
+                                <a class="barEventReminder" href="#"><?php echo $this->lang->line('bar_SET_REMINDER'); ?></a>
+                                
+                                
+                                <!-- Event 2 -->
+                                <hr style="background:#b3b3b3; border:0; height:1px" />
+                                <p class="barEventDate"><?php echo $this->lang->line('bar_FEBRUARY'); ?>&nbsp 14</p>
+                                <p class="barEventTitle">HAPPY 2013 - NEW YEAR PARTY!</p>
+                                <img class="barEventImg" width="105" height="105" src="http://www.dragoart.com/tuts/pics/9/11693/96381/how-to-draw-arrow-hearts-step-1.gif" alt="" />
+                                <p class="barEventText">The easiest way to use PureText is to simply 
+                                    use its hot-key to paste text instead of using the standard CTRL+V 
+                                    hot-key that is built into most Windows applications.  To configure 
+                                    PureText, right-click on its tray icon and choose "Options" from the 
+                                    pop-up menu.  The default hot-key is WINDOWS+V, but this can be changed.  
+                                    In this Options window, you can also configure PureText to run each 
+                                    time you log into Windows.
+                                </p>
+                                <a class="barEventReminder" href="#"><?php echo $this->lang->line('bar_SET_REMINDER'); ?></a>
+                                
+                                <!-- Event 3 -->
+                                <hr style="background:#b3b3b3; border:0; height:1px" />
+                                <img class="barEventImg" width="105" height="105" src="http://rlv.zcache.co.uk/yellow_colour_circle_christmas_ornament-rfdce0e4a51654ba98890fc707dd95385_x7s2y_8byvr_152.jpg" alt="" />
+                                <p class="barEventText">PureText only removes rich formatting from text.  
+                                    This includes the font face, font style (bold, italics, etc.), font color, 
+                                    paragraph styles (left/right/center aligned), margins, character spacing, 
+                                    bullets, subscript, superscript, tables, charts, pictures, embedded objects, etc.  
+                                    However, it does not modify the actual text.  It will not remove or fix new-lines, 
+                                    carriage returns, tabs, or other white-space.  It will not fix word-wrap or clean 
+                                    up your paragraphs.
+                                </p>
+                                <a class="barEventReminder" href="#"><?php echo $this->lang->line('bar_SET_REMINDER'); ?></a>
+                                
                                 <!-- END OF EVENTS & PROMOTIONS -->
-
 
                             </div>
                             <div class="tab-pane" id="tab3">

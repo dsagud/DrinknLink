@@ -458,4 +458,35 @@ div#tab2 h1 {
     font-size:28px;
 }
 
+p.barEventDate {
+    color: #e30000;
+}
+
+p.barEventTitle {
+    font-weight: bold;
+}
+
+p.barEventText {
+    padding-right: 20px;
+}
+
+img.barEventImg {
+    float: left;
+    margin-right: 20px;
+    max-width: 105px;
+    max-height: 105px;
+}
+
+a.barEventReminder {
+    margin-top: 5px;
+    text-align: right;
+    display: block;
+    margin-right: 469px;
+}
+
+a.barEventReminder:hover {
+    text-decoration: none;
+    color: #344770;
+}
+
 /** END OF BAR PAGE **/

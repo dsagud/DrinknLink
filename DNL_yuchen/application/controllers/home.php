@@ -24,7 +24,7 @@ class home extends CI_Controller {
     }
     
     public function loggedinbarpage() {
-        $this->load->view('snippets/top');
+        $this->load->view('snippets/topbarpage');
         //$this->load->view ('home');
         $this->load->view('loggedinbarpage');
         //$this->load->view ('loggedinsearchresults');

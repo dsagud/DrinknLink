@@ -134,4 +134,17 @@ $lang['bigNav_EVENTS_AND_PROMOTIONS'] = "EVENTS & PROMOTIONS";
 $lang['bigNav_SOCIAL_MEDIA'] = "SOCIAL MEDIA";
 $lang['bigNav_RESERVE_OR_BOOK'] = "RESERVE OR BOOK";
 $lang['bar_FRIENDS_HERE_NOW'] = "Friends who are here now";
+$lang['bar_JANUARY'] = "JANUARY";
+$lang['bar_FEBRUARY'] = "FEBRUARY";
+$lang['bar_MARCH'] = "MARCH";
+$lang['bar_APRIL'] = "APRIL";
+$lang['bar_MAY'] = "MAY";
+$lang['bar_JUNE'] = "JUNE";
+$lang['bar_JULY'] = "JULY";
+$lang['bar_AUGUST'] = "AUGUST";
+$lang['bar_SEPTEMBER'] = "SEPTEMBER";
+$lang['bar_OCTOBER'] = "OCTOBER";
+$lang['bar_NOVEMBER'] = "NOVEMBER";
+$lang['bar_DECEMBER'] = "DECEMBER";
+$lang['bar_SET_REMINDER'] = "SET REMINDER";
 
