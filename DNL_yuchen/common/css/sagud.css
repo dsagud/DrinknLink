@@ -456,6 +456,7 @@ li.active div#picbarinfo, li.active div#picenp, li.active div#picrnb, li.active 
 
 div#tab2 h1 {
     font-size:28px;
+    margin-top: 0px;
 }
 
 p.barEventDate {
@@ -487,6 +488,285 @@ a.barEventReminder {
 a.barEventReminder:hover {
     text-decoration: none;
     color: #344770;
+}
+
+#layer-image { 
+    background-image: url(../img/demo/bar_cover.png);
+    top:0px; 
+    background-repeat:no-repeat; 
+    background-position:top center; 
+    height:234px; 
+    width:100%; 
+    margin-left: -13px;
+}
+
+#headerBarTitle {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -126px;
+    width: 800px;
+    height: 33px;
+    color: white;
+    font-weight: 500;
+    font-size: 33px;
+}
+
+#barGoogleMap {
+    width: 240px;
+    height: 195px;
+    float: right;
+    margin-right: 40px;
+    margin-top: -236px;
+}
+
+div#contentMaps {
+    width: 48px;
+    height: 80px;
+    position: absolute;
+    left: 897px;
+    top: -148px;
+}
+
+div#contentMaps img {
+    border: 1px solid silver;
+}
+
+p#onTheMap {
+    width: 125px;
+    height: 25px;
+    position: absolute;
+    left: 958px;
+    top: -230px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+div#userMenu, div#barMenu {
+    height: 60px;
+    margin-left: 61px; 
+    width: 1114px;
+}
+
+div#userMenu {
+    background: #ffffff;
+}
+
+div#barMenu {
+    margin-top: -90px;
+    background: #e9e7e3;
+}
+
+#grid-home {
+    margin-top: 134px;
+}
+
+div#loginPanel {
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+div#loginPanel p {
+    margin:0px;
+}
+
+.userMenu-inline, .barMenu-inline {
+    float: left; 
+    margin-top: 6px;
+}
+
+.userMenu-inline {
+    margin-left: 10px;
+}
+
+.barMenu-inline {
+    margin-left: 22px;
+}
+
+img#dnlUserPic {
+    width: 55px;
+    height: 55px;
+    max-height: 55px;
+    max-width: 55px;
+    margin-top: -4px;
+    margin-left: -10px;
+}
+
+.userConfig {
+    float:left;
+}
+
+.verticalLine {
+    margin-top: 4px;
+    height: 12px;
+    padding-right: 5px;
+    margin-right: 5px;
+    border-right: 1px solid black;
+}
+
+p#loggedInTextStyle, p#loggedInNameStyle {
+    color: #334770;
+    font-weight: bold;
+}
+
+p#loggedInTextStyle {
+    font-size: 13px;
+}
+
+p#loggedInNameStyle {
+    font-size: 15px;
+}
+
+.barNavPics {
+    background-image: url(../img/UserNotifications.jpg);
+    width: 113px;
+    height: 46px;
+}
+
+.picUserNotification {
+    margin-left: 173px;
+}
+
+.picMessages {
+    background-position: 0px -46px;
+}
+
+.picAddFanPage {
+    background-position: 0px -92px;
+}
+
+.picMyDnl {
+    background-position: 0px -138px;
+}
+
+.picMyBars {
+    background-position: 0px -184px;
+}
+
+.picUserNotification:hover {
+    background-position: -113px 0px; 
+}
+
+.picMessages:hover {
+    background-position: -113px -46px;
+}
+
+.picAddFanPage:hover {
+    background-position: -113px -92px;
+}
+
+.picMyDnl:hover {
+    background-position: -113px -138px;
+}
+
+.picMyBars:hover {
+    background-position: -113px -184px;
+}
+
+.picLogOut {
+    background-image: url(../img/logout.jpg);
+    width: 65px;
+    height: 46px;
+}
+
+.picLogOut:hover {
+    background-position: -65px 0px;
+}
+
+.verticalLineLogOut {
+    height: 48px;
+    border-right: 1px solid #c2c8d4;
+}
+
+.barMenuPics1 {
+    background-image: url(../img/barNav2.jpg);
+    width: 123px;
+    height: 47px;
+}
+
+.barMenuPics2 {
+    background-image: url(../img/barNav1.jpg);
+    width: 114px;
+    height: 47px;
+}
+
+.picAddToPubCrawl {
+    background-position: 0px -47px;
+}
+
+.picAddToBarList {
+    background-position: 0px -94px;
+}
+
+.picBackToOverview:hover {
+    background-position: -123px -47px;
+}
+
+.picAddToFavoriteBars:hover {
+    background-position: -114px 0px;
+}
+
+.picAddToPubCrawl:hover {
+    background-position: -114px -47px;
+}
+
+.picAddToBarList:hover {
+    background-position: -114px -94px;
+}
+
+.picRatingGrade {
+    background-image: url(../img/ratingGrade.jpg);
+    width: 33px;
+    height: 47px;
+    background-position: -33px -47px;
+    margin-left: 0px;
+}
+
+/*.picRatingGrade:hover {
+    background-position: 0px 0px;
+}*/
+
+.grade1:hover {
+    
+}
+
+.grade2:hover {
+    
+}
+
+.grade3:hover {
+    
+}
+
+.grade4:hover {
+    
+}
+
+.grade5:hover {
+    
+}
+
+.grade6:hover {
+    
+}
+
+.grade7:hover {
+    
+}
+
+.grade8:hover {
+    
+}
+
+.grade9:hover {
+    
+}
+
+.grade10:hover {
+    
+}
+
+.picRatingLast {
+    margin-left: 0px;
 }
 
 /** END OF BAR PAGE **/

@@ -4,7 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <base href="<?php echo base_url() ?>"/>
-        <title><?php // echo $this->title;            ?></title>
+        <title><?php // echo $this->title;                      ?></title>
 
         <!-- CSS --> 
         <link href="common/css/style.css" rel="stylesheet" />
@@ -13,19 +13,19 @@
         <link href="common/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
         <link href="common/css/jquery.calendarPicker.css" rel="stylesheet" type="text/css" />
 
-        
+
         <!-- JS -->
         <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
         <script type="text/javascript" src="common/js/jquery.mCustomScrollbar.concat.min.js"></script>
         <script type="text/javascript" src="common/js/bootstrap.min.js"></script>
         <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-        <script type="text/javascript" src="common/js/googleMaps.js"></script> 
+        <script type="text/javascript" src="common/js/barGoogleMaps.js"></script> 
         <script type="text/javascript" src="common/js/jquery.quick.pagination.min.js"></script>
         <script type="text/javascript" src="common/js/jquery.calendarPicker.js"></script>
 
         <!-- my jQuery -->
         <script type="text/javascript" src="common/js/jquery.mCustomScrollbar.js"></script>
-        
+
 
         <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -35,7 +35,7 @@
     <body>
         <div id="background">
             <div id="layer-gradient"></div>
-            <div id="layer-header"></div>
+            <!-- <div id="layer-header"></div>-->
             <div id="layer-bubbles"></div>
         </div>
 
@@ -48,16 +48,65 @@
                         <li class="active"><span class="dnl-ui-sprite en-US"></span><a href="/locale/en_US">english</a></li>
                     </ul>
                 </div>			
-            </div>			
-            <div class="column-center">			
-                <div id="website-logo" class="dnl-ui-img"></div>
-                <div id="widget-apps" class="dnl-ui-rounded-corners dnl-ui-drop-shadow">
-                    <label><?php echo $this->lang->line('app_GET_THE_APP'); ?></label>
-                    <ul id="app-list" class="dnl-ui-list">
-                        <li><span class="dnl-ui-sprite app-ios"></span><div><?php echo $this->lang->line('app_IOS'); ?>:<br/><?php echo $this->lang->line('app_APPSTORE'); ?></div></li>
-                        <li><span class="dnl-ui-sprite app-android"></span><div><?php echo $this->lang->line('app_ANDROID'); ?>:<br/><?php echo $this->lang->line('app_GOOGLE_PLAY'); ?></div></li>
-                        <li><span class="dnl-ui-sprite app-blackberry"></span><div><?php echo $this->lang->line('app_BLACKBERRY'); ?>:<br/><?php echo $this->lang->line('app_APPWORLD'); ?></div></li>
-                    </ul>
+            </div>
+
+            <div id="userMenu" class="column-center">
+                <a href="#" class="userMenu-inline"><img id="dnlUserPic" src="common/img/logo/dnl.png" width="55" height="55" alt="" /></a>
+                <div id="loginPanel" class="userMenu-inline">
+                    <p id="loggedInTextStyle"><?php echo $this->lang->line('bar_LOGGED_IN_AS'); ?></p>
+                    <p id="loggedInNameStyle">HANS VAN DER STEEN</p>
+
+                    <a href="#" class="userConfig"><i class="icon-wrench"></i>&nbsp<?php echo $this->lang->line('bar_SETTINGS'); ?></a>
+                    <div class="userConfig verticalLine"></div>
+                    <a href="#" class="userConfig"><i class="icon-pencil"></i>&nbsp<?php echo $this->lang->line('bar_EDIT_PROFILE'); ?></a>
+
                 </div>
-            </div>					
+                <a href="#" class="userMenu-inline barNavPics picUserNotification"></a>
+                <a href="#" class="userMenu-inline barNavPics picMessages"></a>
+                <a href="#" class="userMenu-inline barNavPics picAddFanPage"></a>
+                <a href="#" class="userMenu-inline barNavPics picMyDnl"></a>
+                <a href="#" class="userMenu-inline barNavPics picMyBars"></a>
+
+                <div class="userMenu-inline verticalLine verticalLineLogOut"></div>
+                <a href="#" class="userMenu-inline picLogOut"></a>
+            </div>
+
+            <div id="layer-image"></div>
+
+            <div class="column-center">			
+                <!-- Google maps -->
+                <div class="row">
+
+                    <!-- Map -->
+                    <div id="barGoogleMap"></div> 
+                    <div id="contentMaps">
+                        <a href=""><img src="common/img/plot.jpg" alt="" /></a>
+                    </div>
+                    <p id="onTheMap"><?php echo $this->lang->line('bar_ON_THE_MAP'); ?></p>
+
+                </div>
+
+                <p id="headerBarTitle">THE PEGASUS PUB</p>
+
+            </div>
+
+            <div id="barMenu" class="column-center">
+                <a href="#" class="barMenu-inline barMenuPics1 picBackToOverview"></a>
+                <a href="#" class="barMenu-inline barMenuPics2 picAddToFavoriteBars"></a>
+                <a href="#" class="barMenu-inline barMenuPics2 picAddToPubCrawl"></a>
+                <a href="#" class="barMenu-inline barMenuPics2 picAddToBarList"></a>              
+                <img src="common/img/rating01.jpg" alt="" class="barMenu-inline" />
+                <a href="#" class="barMenu-inline picRatingGrade grade1"></a>
+                <a href="#" class="barMenu-inline picRatingGrade grade2"></a>
+                <a href="#" class="barMenu-inline picRatingGrade grade3"></a>
+                <a href="#" class="barMenu-inline picRatingGrade grade4"></a>
+                <a href="#" class="barMenu-inline picRatingGrade grade5"></a>
+                <a href="#" class="barMenu-inline picRatingGrade grade6"></a>
+                <a href="#" class="barMenu-inline picRatingGrade grade7"></a>
+                <a href="#" class="barMenu-inline picRatingGrade grade8"></a>
+                <a href="#" class="barMenu-inline picRatingGrade grade9"></a>
+                <a href="#" class="barMenu-inline picRatingGrade grade10"></a>
+                <img src="common/img/rating02.jpg" alt="" class="barMenu-inline picRatingLast" />
+            </div>
+
         </div>

@@ -147,4 +147,8 @@ $lang['bar_OCTOBER'] = "OCTOBER";
 $lang['bar_NOVEMBER'] = "NOVEMBER";
 $lang['bar_DECEMBER'] = "DECEMBER";
 $lang['bar_SET_REMINDER'] = "SET REMINDER";
+$lang['bar_ON_THE_MAP'] = "ON THE MAP";
+$lang['bar_LOGGED_IN_AS'] = "LOGGED IN AS";
+$lang['bar_SETTINGS'] = "settings";
+$lang['bar_EDIT_PROFILE'] = "edit profile";
 

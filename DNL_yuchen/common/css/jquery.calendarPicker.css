@@ -8,6 +8,7 @@
     display: inline-block;
     overflow:hidden;
     border-bottom: 2px solid white;
+    cursor: pointer;
 }
 
 .calYear {
