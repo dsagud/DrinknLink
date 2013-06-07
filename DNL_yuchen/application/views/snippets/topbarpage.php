@@ -50,7 +50,7 @@
                 </div>			
             </div>
 
-            <div id="userMenu" class="column-center">
+            <div id="userMenu" class="middle-screen">
                 <a href="#" class="userMenu-inline"><img id="dnlUserPic" src="common/img/logo/dnl.png" width="55" height="55" alt="" /></a>
                 <div id="loginPanel" class="userMenu-inline">
                     <p id="loggedInTextStyle"><?php echo $this->lang->line('bar_LOGGED_IN_AS'); ?></p>
@@ -90,7 +90,7 @@
 
             </div>
 
-            <div id="barMenu" class="column-center">
+            <div id="barMenu" class="middle-screen">
                 <a href="#" class="barMenu-inline barMenuPics1 picBackToOverview"></a>
                 <a href="#" class="barMenu-inline barMenuPics2 picAddToFavoriteBars"></a>
                 <a href="#" class="barMenu-inline barMenuPics2 picAddToPubCrawl"></a>

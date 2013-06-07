@@ -508,7 +508,7 @@ a.barEventReminder:hover {
     background-position:top center; 
     height:234px; 
     width:100%; 
-    margin-left: -13px;
+    margin-left: -6px;
 }
 
 #headerBarTitle {
@@ -553,7 +553,9 @@ p#onTheMap {
 }
 
 div#userMenu, div#barMenu {
-    margin-left: 61px; 
+    display: block;
+    margin: 0px auto;
+    position: relative;
     width: 1114px;
 }
 
@@ -589,17 +591,17 @@ div#loginPanel p {
 
 .userMenu-inline, .barMenu-inline {
     float: left; 
-    margin-top: 6px;
+    margin-top: 0.5%;
 }
 
 .userMenu-inline {
-    margin-left: 10px;
+    margin-left: 1%;
 }
 
 .barMenu-inline {
-    margin-left: 22px;
-    margin-bottom: 14px;
-    margin-top: -6px;
+    margin-left: 1.9%;
+    margin-bottom: 1.4%;
+    margin-top: -0.4%;
 }
 
 img#dnlUserPic {
@@ -743,6 +745,10 @@ p#loggedInNameStyle {
 
 .picRatingLast {
     margin-left: 0px;
+}
+
+.middle-screen {
+    margin: 0 auto;
 }
 
 /** END OF BAR PAGE **/
